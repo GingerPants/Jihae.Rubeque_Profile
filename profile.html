@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>profile.html</title>
+    <style media="screen">
+      div{
+        width:400px; line-height:50px; text-align:left;
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 1.3em;
+        font-weight:bold;
+        position:relative;
+        padding-left: 20px;
+        border-radius: 5px;
+        animation:mymove 2s ;
+      }
+      div.gallery{
+        position: absolute;
+        margin:1px;
+        width:400px; height: auto;
+        line-height: none;
+        background-color: ivory;
+      }
+      div.gallery img{
+        width:50%; height:auto; border-radius: 10px;
+      }
+      img:hover { clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+        -webkit-mask:polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+      }
+      #div1{ animation-timing-function:ease-out; background-color: rgba(255,0,127,0.4)}
+      #div2{ animation-timing-function:ease; background-color: rgba(0,84,255,0.4);}
+      #div3{ animation-timing-function:linear; background-color: rgba(255,0,127,0.4); }
+      #div4{ animation-timing-function:ease-in-out; background-color: rgba(0,84,255,0.4);}
+      #div5{ animation-timing-function:ease-out; background-color: rgba(255,0,127,0.4);}
+      @keyframes mymove{
+        from{left:400px; }
+        to{left:0px; }
+      }
+      h2[title*="first"]{color:hotpink; margin-left: 50px;}
+    </style>
+  </head>
+
+  <body>
+    <hr>
+    <h2 title="heading_first">PROFILE</h2>
+    <hr>
+    <div class = "gallery">
+    <img src="https://scontent-ham3-1.xx.fbcdn.net/v/t1.0-9/15979_4018253938775_446767554_n.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=S-bZnnG4rTEAX8QOOpt&_nc_ht=scontent-ham3-1.xx&oh=67be237e3d5648cb8c5fbea86a368ec4&oe=5EEAA7BD" alt="profile_img">
+    </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div id="div3">이름: 김지혜</div>
+      <div id="div2">나이: 40살</div>
+      <div id="div1">사는 곳: 독일 프랑크푸르트</div>
+      <div id="div4">WEBSITE: www.facebook.com/shypig</div>
+      <div id="div5">E-MAIL: 2017610162@sdu.ac.kr</div>
+  </body>
+</html>

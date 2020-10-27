@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>free</title>
+    <style media="screen">
+      body{font-family: "arial black", "sans-serif";}
+      div{
+        font-size:20px;
+        font-weight:bold;
+        color:skyblue;
+        margin: 10px 40px;
+      }
+      p{
+        background-color: green;
+        font-size:20px;
+        font-weight:bold;
+        color:yellowgreen;
+        margin: 20px;
+        width: 290px;
+        border:3px solid black;
+      }
+      p:hover{
+        background-color: yellow;
+        color: black;
+      }
+      .s1{
+        text-shadow: 2px 2px 2px gray;
+      }
+      .s2{
+        text-shadow: 2px 2px 0px #1565c0,
+        3px 3px 0px #42a5f5,
+        5px 5px 0px hotpink;
+      }
+      .s3{
+        background-color: #f44336;
+        color: #fff;
+        text-shadow: 2px 8px 6px rgb(0,0,0),
+        0 -3px 20px rgba(255, 255, 255, 0.4);
+        margin:20px 40px;
+        padding:20px 0px;
+        text-align:left;
+        font-weight: bold;
+        box-shadow: 5px 5px 10px 10px gray;
+      }
+      .s4{
+        font-size:20px;
+        width:400px; height:30px;
+        border:3px solid violet;
+        overflow:hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      div.gallery {
+        margin: 5px 5px 150px 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        height: 100px;
+        transition: width 0.5s, height 1s;
+      }
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      div.gallery:hover {
+        border: none;
+        width: 400px;
+        height: 380px;
+      }
+      a{text-decoration:none}
+      a:link{color:#0489B1;}
+      a:visited{color:#151515;}
+      a:hover{color:red;}
+      a:active{color:black;}
+    </style>
+  </head>
+  <body>
+    <p> 1. 이메일 보내기 </p>
+    <div><a href="mailto:2017610162@sdu.ac.kr" target="_top">2017610162@sdu.ac.kr</a></div>
+    <hr>
+
+    <p> 2. 그림자 스타일  </p>
+    <div class="s1">...1st Text shadow... </div>
+    <div class="s2">...2nd Text shadow... </div>
+    <div class="s3">...3rd Text & box shadow... </div>
+    <hr>
+
+    <p> 3. 텍스트 생략표시 </p>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <div class="s4">ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </div>nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <hr>
+
+    <p> 4. 유동적인 사이즈의 이미지 </p>
+    <div class="gallery">
+      <target="_blank" href="https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/268811_4776119524941_23680000_n.jpg?_nc_cat=102&_nc_sid=cdbe9c&_nc_ohc=IACtetTE2E4AX8y9rBw&_nc_ht=scontent-dus1-1.xx&oh=5471a943064f354844e85d0a6c3e2348&oe=5EEBC6A9">
+      <img src="https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/268811_4776119524941_23680000_n.jpg?_nc_cat=102&_nc_sid=cdbe9c&_nc_ohc=IACtetTE2E4AX8y9rBw&_nc_ht=scontent-dus1-1.xx&oh=5471a943064f354844e85d0a6c3e2348&oe=5EEBC6A9" alt="omg" width="600" height="400">
+      </a>
+    </div>
+  </body>
+</html>

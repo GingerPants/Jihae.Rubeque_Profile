@@ -7,7 +7,7 @@
 <img align="right" alt="GIF" src="https://user-images.githubusercontent.com/42025150/97428490-53c00480-1916-11eb-81a0-c2fae61c0dc1.gif" width="300"/>
   
   
-- 🎓 &nbsp; <b>Education:</b> Bachelor of Engineering at Seoul Digital University
+- 🎓 &nbsp; <b>Education: Bachelor of Engineering in computer Engineering</b> at Seoul Digital University
 - 👀 &nbsp; <b>Personality:</b> reaponsible, reliable, curious, adventurous, passionate, team player
 - 🎨 &nbsp; <b>Hobby:</b> Badminton, TaeBo, Swimming, Watching Documentry
 - 👄 &nbsp; <b>Language:</b> Korean(native), English(fluent), German(very good), Japanese(beginner)

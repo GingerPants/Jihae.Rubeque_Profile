@@ -6,10 +6,11 @@
     <style media="screen">
       div{
         width:400px; line-height:50px; text-align:left;
-        margin-left: 10px;
+        margin-left: 250px;
         margin-top: 5px;
-        font-size: 1.3em;
+        font-size: 1.2em;
         font-weight:bold;
+        text-overflow: ellipsis;
         position:relative;
         padding-left: 20px;
         border-radius: 5px;
@@ -18,15 +19,15 @@
       div.gallery{
         position: absolute;
         margin:1px;
-        width:400px; height: auto;
+        width:437px; height: auto;
         line-height: none;
         background-color: ivory;
       }
       div.gallery img{
         width:50%; height:auto; border-radius: 10px;
       }
-      img:hover { clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-        -webkit-mask:polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+      img:hover { clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+        -webkit-mask:polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
       }
       #div1{ animation-timing-function:ease-out; background-color: rgba(255,0,127,0.4)}
       #div2{ animation-timing-function:ease; background-color: rgba(0,84,255,0.4);}
@@ -37,22 +38,32 @@
         from{left:400px; }
         to{left:0px; }
       }
-      h2[title*="first"]{color:hotpink; margin-left: 50px;}
+      h3[title*="first"]{color:hotpink; margin-left: 50px;}
     </style>
   </head>
 
   <body>
     <hr>
-    <h2 title="heading_first">PROFILE</h2>
+    <h3 title="heading_first">PROFILE</h3>
     <hr>
     <div class = "gallery">
-    <img src="https://scontent-ham3-1.xx.fbcdn.net/v/t1.0-9/15979_4018253938775_446767554_n.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=S-bZnnG4rTEAX8QOOpt&_nc_ht=scontent-ham3-1.xx&oh=67be237e3d5648cb8c5fbea86a368ec4&oe=5EEAA7BD" alt="profile_img">
+    <img src="https://user-images.githubusercontent.com/42025150/97319297-09cf1400-186d-11eb-8d62-8af6245b9217.png" alt="profile_img">
     </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       <div id="div3">NAME: Ji-Hae Rubeque</div>
       <div id="div2">DATE OF BIRTH: 22.10.1981</div>
       <div id="div1">ADDRESS: Frankfurt, HE60486</div>
-      <div id="div4">WEBSITE: www.github.com/gingerpants</div>
-      <div id="div5">E-MAIL: jihae.rubeque@gmail.com</div>
+      <div id="div4">WEBSITE: <a target="http://www.github.com/gingerpants" href="http://www.github.com/gingerpants">www.github.com/gingerpants/jihae.rubeque</a></div>
+      <div id="div5">E-MAIL: <a href="mailto:jihae.rubeque@gmail.com">jihae.rubeque@gmail.com</a></div>
+      <br>
+
+
+
+      I just graduated from university and got a <b>Bechelor Engineering in Computer Enginerring</b>.
+      The job position that I am seeking is a <b>Software Developer</b>.<br>
+      I have studied and worked in different fields in various countries in the past. From that experience, I learned things like how to communicate with people, how to respect different cultures, and how to have a working mindset.<br>
+      I wanted to learn computer programming as a hobby in the beginning. After that, I wanted to learn more in earnst So I went to university and I enjoyed my studies throughout my university years, and it was so fun. And I was able to graduate with good grades.<br>
+      My strength is that I like all computer-related things, I am curious and learn quickly.<br>
+      My downside seems to be my career in other fields in the past.<br>
+      I will try to be more helpful and want to be recognized for my efforts without wasting my talent.<br>
   </body>
 </html>

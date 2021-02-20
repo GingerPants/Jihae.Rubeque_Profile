@@ -1,6 +1,4 @@
 <h2> Hey there! I'm Ji-Hae. <img src="https://user-images.githubusercontent.com/42025150/96602493-5bb6ed80-12f3-11eb-854d-ff4ee0121e04.gif" width="50"></h2>
-<img src="https://user-images.githubusercontent.com/42025150/96595802-586c3380-12ec-11eb-9d4c-a084c5fd0d33.png" width="150">
-
 
 <h2> I am seeking a job as a Network Administrator. So I'd like to introduce myself.
 <h3> 👩‍ About Me </h3>

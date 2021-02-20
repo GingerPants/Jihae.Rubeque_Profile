@@ -14,7 +14,7 @@ I am seeking a job as a Software Developer. So here I'd like to introduce myself
 <h3>🛠 Tech Stack</h3>
 
 - 🧰 &nbsp; Packet Tracer(Cisco) | MySQL | Oracle DB | Linux
-- 💻 &nbsp; Python | C | Java | C++ | C# | MatLab | R 
+- 💻 &nbsp; Java | C | Python | C++ | C# | MatLab | R 
 - 🌐 &nbsp; HTML5 | CSS | JavaScript | Android 
 - 🔧 &nbsp; PyCharm | Eclipse | Visual Studio | Android Studio  
 

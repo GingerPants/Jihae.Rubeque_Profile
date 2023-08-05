@@ -6,8 +6,8 @@ I am seeking a job as a Frontend Developer. So here I'd like to introduce myself
   
   
 - 🎓 &nbsp; <b>Education: Bachelor of Engineering in Computer Engineering</b> at Seoul Digital University
-- 👄 &nbsp; <b>Language:</b> Korean(native), English(fluent), German(very good), Japanese(beginner)
-- 🎨 &nbsp; <b>Hobby:</b> Badminton, TaeBo, Swimming, Puzzle
+- 👄 &nbsp; <b>Language:</b> Korean(native), English(fluent), German(good)
+- 🎨 &nbsp; <b>Hobby:</b> Badminton, Riding a bicycle, TaeBo, Swimming, Puzzle
 - 🏡 &nbsp; <b>Where I live:</b> Frankfurt, Germany
 
 

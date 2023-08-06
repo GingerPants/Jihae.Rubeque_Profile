@@ -35,14 +35,14 @@
       }
       .col-25 {
        float: left;
-       width: 20%;
+       width: 25%;
        margin-top: 5px;
        color: brown;
        font-weight: bold;
       }
       .col-75 {
        float: left;
-       width: 80%;
+       width: 75%;
        margin-top: 5px;
       }
       .row:after {
@@ -50,7 +50,7 @@
        display: table;
        clear: both;
       }
-    }
+    
     input:enabled + span { color:blue; }
     input:disabled + span { color:gray; text-decoration:line-through; }
     input:checked + span { color:red; }
@@ -60,67 +60,73 @@
   <body>
     <form action="#" name="form1" method="post" />
       <fieldset>
-        <legend> <h2 title="heading_first"> 문의 사항 입력 </h2> </legend>
+        <legend> <h2 title="heading_first"> YOUR INQUIRY INFORMATION </h2> </legend>
 
         <div class="row">
-          <div class="col-25"> 이름 </div>
+          <div class="col-25"> Name </div>
           <input type="text" maxlenth="10"><br />
         </div>
 
         <div class="row">
-          <div class="col-25"> Email </div>
+          <div class="col-25"> E-mail </div>
           <input type="email"><br />
         </div>
 
         <div class="row">
-          <div class="col-25"> 전화번호 </div>
+          <div class="col-25"> Telephone </div>
         <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="010-1234-5678"><br>
         </div>
 
         <div class="row">
-          <div class="col-25"> 연락 받을 방법 </div>
-          <input type="checkbox" name="chk1" value="home_phone" checked>집전화
-          <input type="checkbox" name="chk1" value="mobile_phone">핸드폰
-          <input type="checkbox" name="chk1" value="email">이메일
+          <div class="col-25"> Contact Method </div>
+          <input type="checkbox" name="chk1" value="home_phone" checked>Telephone
+          <input type="checkbox" name="chk1" value="mobile_phone">Mobile Phone
+          <input type="checkbox" name="chk1" value="email">E-mail
         </div>
 
         <div class="row">
           <div class="col-25"> Payment Method </div>
-        <input type="radio" name="chk" value="cash" checked>
-        <span>Cash</span>
-        <input type="radio" name="chk" value="credit_card">
-        <span>Credit Card</span>
-        <input type="radio" name="chk" value="debit_card">
-        <span>Debit Card</span>
-        <input type="radio" name="gender" value="neuter" disabled>
-        <span>PayPal</span>
-        <br/>
+          <input type="radio" name="chk" value="cash" checked>
+          <span>Cash</span>
+          <input type="radio" name="chk" value="credit_card">
+          <span>Credit Card</span>
+          <input type="radio" name="chk" value="debit_card">
+          <span>Debit Card</span>
+          <input type="radio" name="chk" value="paypal">
+          <span>PayPal</span><br>
+          <input type="radio" name="chk" value="apple_pay">
+          <span>Apple Pay</span>
+          <input type="radio" name="gender" value="neuter" disabled>
+          <span>Crypto</span>
+          <br/>
+        </div>
+
+      <div class="row">
+        <div class="col-25"> Consultation Method </div>
+        <input type="text" name="stu" list="depList"><br>
+        <datalist id="depList">
+          <option value="In-House"></option>
+          <option value="Video Call"></option>
+          <option value="Visit"></option>
+        </datalist>
       </div>
 
       <div class="row">
-        <div class="col-25"> 상담 </div>
-        <input type="text" name="stu" list="depList"><br>
-      <datalist id="depList">
-        <option value="방문 상담"></option>
-        <option value="화상 상담"></option>
-        <option value="출장 상담"></option>
-      </datalist>
-
-      <div class="row">
-        <div class="col-25"> 상담 희망 날짜 </div>
+        <div class="col-25"> Preferred Date </div>
         <input type="datetime-local" name="ddaytime"><br>
       </div>
 
       <div class="row">
-        <div class="col-25"> 문의사항 </div>
+        <div class="col-25"> Inquiry </div>
       <div class="col-75">
-        <textarea rows="8" cols="50"  wrap="physical" placeholder="문의사항을 입력하세요."></textarea>
+        <textarea rows="8" cols="50"  wrap="physical" placeholder="Please input your inquiry."></textarea>
       </div>
       </fieldset>
 
-      <p>작성 완료 후 제출버튼을 꼭 눌러주세요.</p>
-      <input type="reset" value="다시 작성">
-      <input type="button" value="제출" onclick="location.href='file.html';" name="inputlist">
+      <p>Please press 'Submit' button to send your inquiry.</p>
+      <input type="reset" value="RESET">
+      <input type="button" value="SUBMIT" onclick="location.href='file.html';" name="inputlist">
     </form>
   </body>
 </html>
+
